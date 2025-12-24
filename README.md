@@ -162,6 +162,7 @@ MCP_Server/
 
 AI_Context/
 ├── MCP_Bridge_Command_Reference.md   # MCP Commands reference
+├── CE_LUA_Documentation.md   # Full CheatEngine 7.6 official documentation
 └── AI_Guide_MCP_Server_Implementation.md  # Full technical documentation for AI agent
 ```
 
