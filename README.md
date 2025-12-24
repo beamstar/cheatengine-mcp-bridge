@@ -1,3 +1,5 @@
+![repository-open-graph-template copy](https://github.com/user-attachments/assets/ff56c88c-5613-45c3-9228-644524fcd50e)
+
 # Cheat Engine MCP Bridge
 
 > **Let AI analyze the game memory for you.** Connect Claude, Cursor, or Copilot directly to Cheat Engine.
