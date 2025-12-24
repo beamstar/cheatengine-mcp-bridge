@@ -159,7 +159,7 @@ Use the `ping` tool to verify connectivity:
 | `set_breakpoint`, `set_data_breakpoint` | Hardware breakpoints |
 | `start_dbvm_watch` | Ring -1 invisible tracing |
 
-And many more at `MCP_Bridge_Command_Reference.md`
+And many more at `AI_Context/MCP_Bridge_Command_Reference.md`
 
 ---
 
