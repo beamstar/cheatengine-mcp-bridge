@@ -219,7 +219,7 @@ AI_Context/
 
 Run the comprehensive test suite:
 ```bash
-python MCP_Server/test_mcp_.py
+python MCP_Server/test_mcp.py
 ```
 
 Expected output:
