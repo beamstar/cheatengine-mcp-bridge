@@ -42,20 +42,6 @@ You're staring at gigabytes of memory. Millions of addresses. Thousands of funct
 
 ---
 
-## Anti-Cheat Safe
-
-| Risk | Our Solution |
-|------|--------------|
-| Software breakpoints (0xCC) | ❌ Never used |
-| Memory writes | ❌ Never performed |
-| Detectable hooks | ❌ Not possible |
-| **Hardware debug registers** | ✅ DR0-DR3 only |
-| **DBVM hypervisor tracing** | ✅ Ring -1 invisible |
-
-**Read-only. No modifications. No detection.**
-
----
-
 ## How It Works
 
 ```
