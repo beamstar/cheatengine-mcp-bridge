@@ -1,6 +1,3 @@
-> [!NOTE]
-> Thanks everyone for the stars, much appreciated! <3
-
 [Demo](https://github.com/user-attachments/assets/a184a006-f569-4b55-858a-ed80a7139035)
 
 # Cheat Engine MCP Bridge
@@ -10,6 +7,9 @@
 Connect Cursor, Copilot, Antigravity or your favorite local AI agent via RooCode/Cline directly to Cheat Engine to create mods, trainers, security audits or do anything else with any program/game in a fraction of a time.
 
 [![Version](https://img.shields.io/badge/version-11.4.0-blue.svg)](#) [![Python](https://img.shields.io/badge/python-3.10%2B-green.svg)](https://python.org)
+
+> [!NOTE]
+> Thanks everyone for the stars, much appreciated! ❤️ At 100 I'll add write to memory capabilities!
 
 ---
 
