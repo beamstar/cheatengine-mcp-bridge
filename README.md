@@ -9,7 +9,7 @@ Connect Cursor, Copilot, Antigravity or your favorite local AI agent via RooCode
 [![Version](https://img.shields.io/badge/version-11.4.0-blue.svg)](#) [![Python](https://img.shields.io/badge/python-3.10%2B-green.svg)](https://python.org)
 
 > [!NOTE]
-> Thanks everyone for the stars, much appreciated! ❤️ At 100 I'll add write to memory capabilities!
+> Thanks everyone for the stars, much appreciated! <3
 
 ---
 
