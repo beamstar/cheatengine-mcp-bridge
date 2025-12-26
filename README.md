@@ -52,32 +52,30 @@ _- Stop clicking through hex dumps and start having conversations with the memor
 ---
 
 ## How It Works
-
+```mermaid
+flowchart TD
+    AI[AI Agent: Claude/Cursor/Copilot]
+    
+    AI -->|MCP Protocol - JSON-RPC over stdio| MCP
+    
+    MCP[mcp_cheatengine.py - Python MCP Server]
+    
+    MCP <-->|Named Pipe - Async| PIPE
+    
+    PIPE["\\.\\pipe\\CE_MCP_Bridge_v99"]
+    
+    PIPE <--> CE
+    
+    subgraph CE[Cheat Engine - DBVM Mode]
+        subgraph LUA[ce_mcp_bridge.lua]
+            WORKER[Worker Thread - Blocking I/O]
+            MAIN[Main Thread - GUI + CE API]
+            WORKER <-->|Sync| MAIN
+        end
+    end
+    
+    MAIN -->|Memory Access| TARGET[Target .exe]
 ```
-┌────────────────────────────────────────────────────────────────────────┐
-│  AI Agent (Claude/Cursor/Copilot)                                      │
-│       │                                                                │
-│       ▼ MCP Protocol (JSON-RPC over stdio)                             │
-│  ┌─────────────────────────────────────────────────────────────────┐   │
-│  │  mcp_cheatengine.py (Python MCP Server)                         │   │
-│  │  - Translates MCP tools to JSON-RPC                             │   │
-│  │  - Connects to \\.\pipe\CE_MCP_Bridge_v99                       │   │
-│  └───────────────────────────┬─────────────────────────────────────┘   │
-│                           ▲  │ Named Pipe (Async)                      │
-│                           │  ▼                                         │
-│  ┌────────────────────────┴────────────────────────────────────────┐   │
-│  │  CheatEngine (Running in DBVM, attached to .exe)                │   │
-│  │  ┌─────────────────────────────────────────────────────────┐    │   │
-│  │  │  ce_mcp_bridge.lua                                      │    │   │
-│  │  │  ┌─────────────────┐      ┌─────────────────────┐       │    │   │
-│  │  │  │ Worker Thread   │◄────►│ Main Thread (GUI)   │       │    │   │
-│  │  │  │ (Blocking I/O)  │ Sync │ (Safe API Execution)│       │    │   │
-│  │  │  └─────────────────┘      └─────────────────────┘       │    │   │
-│  │  └─────────────────────────────────────────────────────────┘    │   │
-│  └─────────────────────────────────────────────────────────────────┘   │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## Installation
